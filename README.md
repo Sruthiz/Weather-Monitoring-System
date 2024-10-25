@@ -8,6 +8,7 @@ summarized insights using rollups and aggregates. The system will utilize data f
 OpenWeatherMap API 
 
 Demo : 
+
 ![Screenshot (159)](https://github.com/user-attachments/assets/4124ef97-c1d4-47c1-a774-bf808b73c52c)
 
 ![Screenshot (162)](https://github.com/user-attachments/assets/c63bbdc9-7f19-44e1-8a6e-ad185b5d55d5)
