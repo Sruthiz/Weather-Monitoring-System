@@ -59,12 +59,14 @@ Running the Project :
 
    FOLDER STRUCTURE
    ```bash
-    weather-visualization/
-    │
-    ├── index.html              # Main page for weather data input
-    ├── visualization.html      # Page for visualizing weather data
-    ├── styles.css              # Styling for the pages
-    └── README.md               # Instructions and project overview
+   Weather-Monitoring-System/
+   ├── index.html              # Main HTML file for the web interface
+   ├── visualization.html      # HTML file for displaying weather visualizations
+   ├── README.md               # Documentation file for the project setup and usage
+   ├── script.js               # JavaScript file handling API interactions and thresholds
+   ├── style.css               # CSS file for styling the application
+   ├── visualization.js        # JavaScript file for managing data visualization
+   └── assets/                 # (Optional) Directory for images/icons if needed
 
  DEPENDENCIES :
   Chart.js (included via CDN in visualization.html)
