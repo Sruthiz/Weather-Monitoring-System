@@ -18,6 +18,7 @@ Demo :
 
 
 Installtion Steps :
+STEP : 1
 
  1. Open a terminal (or command prompt) in your project's root directory.
  2. Initialize Git:
@@ -27,28 +28,42 @@ Installtion Steps :
 3. Clone the Repository
    ```bash
    git clone https://github.com/your-username/rule-engine-project.git
-4. Install Dependencies Install the required packages using npm:
-   ```bash
-    npm install
-5. Setup MongoDB Ensure MongoDB is running on your local machine or connect to a remote MongoDB instance. Modify the connection URL in server.js if needed:
-   ```bash
-    const MONGO_URL = "mongodb://127.0.0.1:27017/rule_engine_data";
-6. Run the Server Start the server:
-   ```bash
-    node server.js
-  Your server should be running on http://localhost:8080.
-  
- 7. Open the Application Open your web browser and visit:
-    ```bash
-    http://localhost:8080
- 8 . Add all your project files to the staging area :
+4. Add all your project files to the staging area :
     ```bash
         git add .
         
- 9. Commit the changes:
+5. Commit the changes:
     ```bash
     git commit -m "Initial commit"
    
-10. Push your local repository to GitHub
+6. Push your local repository to GitHub
     ```bash
     git push -u origin master
+
+STEP : 2
+
+ API Key Setup :
+1. Create a free account on OpenWeatherMap.
+2. Get your API key from your OpenWeatherMap dashboard.
+3. Open the script.js file and replace the YOUR_API_KEY_HERE placeholder with your actual API key:
+   ``` bash
+   const apiKey = 'YOUR_API_KEY_HERE';  // Replace with your OpenWeatherMap API key
+   
+Step : 3
+
+Running the Project : 
+1. Open index.html in a web browser.
+2. Enter a city name to fetch weather data.
+3. Click on the link to View Weather Visualizations to see the data charts.
+
+   FOLDER STRUCTURE
+   ```bash
+    weather-visualization/
+    │
+    ├── index.html              # Main page for weather data input
+    ├── visualization.html      # Page for visualizing weather data
+    ├── styles.css              # Styling for the pages
+    └── README.md               # Instructions and project overview
+
+ DEPENDENCIES :
+  Chart.js (included via CDN in visualization.html)
