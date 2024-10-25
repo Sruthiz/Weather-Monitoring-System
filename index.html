@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h2 class="navbar-brand">Weather App</h2>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="visualization.html">View Visualization</a></li>
+        </ul>
+    </div>
+
+    <div class="container">
+        <h1>Weather Forecast</h1>
+
+        <!-- User Threshold Inputs -->
+        <div class="threshold-section">
+            <h3>Set Thresholds</h3>
+            <div class="input-group">
+                <label for="temp-threshold">Temperature Threshold (°C):</label>
+                <input type="number" id="temp-threshold" placeholder="e.g. 35" />
+            </div>
+            <div class="input-group">
+                <label for="condition-threshold">Weather Condition (e.g. Rain, Snow):</label>
+                <input type="text" id="condition-threshold" placeholder="e.g. Rain" />
+            </div>
+            <button id="set-threshold-btn">Set Thresholds</button>
+        </div>
+
+        <!-- Weather Search -->
+        <div class="search-section">
+            <label for="city-name">Enter City Name:</label>
+            <input type="text" id="city-name" placeholder="Enter city name...">
+            <button id="get-weather-btn">Get Weather</button>
+        </div>
+
+        <!-- Weather Forecast Output -->
+        <div id="weather-forecast"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
